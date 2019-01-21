@@ -19,6 +19,6 @@ clas HelloWorld {
             numRev = numRev*10 + lastDigit;
             numCpy = numCpy/10;
         }
-        return numRev = num;
+        return numRev == num;
     }
 }
