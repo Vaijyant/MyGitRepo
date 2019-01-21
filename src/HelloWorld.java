@@ -10,7 +10,7 @@ clas HelloWorld {
         return num%2 == 1 ? true : false; 
     }
 
-    public static isPalindrome(int num){
+    public static boolean isPalindrome(int num){
         //2nd funtion in VT-feature   
         int numCpy = num;
         int numRev = 0;
