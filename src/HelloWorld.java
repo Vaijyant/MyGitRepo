@@ -9,4 +9,16 @@ clas HelloWorld {
         //A function in VT-feature
         return num%2 == 1 ? true : false; 
     }
+
+    public static isPalindrome(int num){
+        //2nd funtion in VT-feature   
+        int numCpy = num;
+        int numRev = 0;
+        while(numCpy != 0){
+            int lastDigit = numCpy%10;
+            numRev = numRev*10 + lastDigit;
+            numCpy = numCpy/10;
+        }
+        return numRev = num;
+    }
 }
